@@ -1,0 +1,17 @@
+{
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "user",
+            "content": "Here is some information about Deaf-related movies, including: Sound of Metal, CODA, and Sweet Nothing in My Ear. Provide 2 entries including role and content based on this data in JSONL format."
+        },
+        {
+            "role": "assistant",
+            "content": "{\"messages\": [{\"role\": \"user\", \"content\": \"What is the main character's profession in Sound of Metal?\"}, {\"role\": \"assistant\", \"content\": \"He is a heavy metal drummer.\"}]}\n{\"messages\": [{\"role\": \"user\", \"content\": \"What is CODA an acronym for?\"}, {\"role\": \"assistant\", \"content\": \"Child of Deaf Adults.\"}]}"
+        },
+        {
+            "role": "user",
+            "content": "Here is some information about the Deaf-related movies: {{info}}. Provide {{n}} entries including role and content based on this data in JSONL format."
+        }
+    ]
+}
